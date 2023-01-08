@@ -1,0 +1,148 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: #FDFCEF;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 245px 120px;
+    gap: 120px;
+}
+
+p{
+    font-weight: 500; 
+    font-size: 18px;
+    line-height: 1.367em;
+    margin: 0 auto;
+}
+
+.header{
+    width: 1110px;
+}
+h1 h2 h3{
+    font-weight: 700;
+}
+h1{
+    font-size: 50px;
+    line-height: 1.4em;
+    margin: 0 auto;
+}
+
+h2{
+    text-align: center;
+    margin: 0 auto;
+    font-size: 40px;
+    line-height: 1.4em;
+    width:516px;
+}
+h3{
+    text-align: left;
+    margin: 0 auto;
+    font-size: 30px;
+    line-height: 1.4em;
+    padding-bottom: 11px;
+
+}
+
+.hero{
+    display: flex;
+    margin-top: 82px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.herotext{
+    width: 465px;
+}
+
+#herotxt{
+    margin:30px 0px;
+    width:423px;
+}
+
+.btn{
+    background: #FF6861;
+    text-decoration: none;
+    color: #fff;
+    width: 227px;
+    height: 69px;
+    display:block;
+    border-radius: 100px;
+    text-align: center;
+    padding: 22px 70px;
+    font-size: 18px;
+}
+
+.heroimage{
+    background: linear-gradient(180deg, #FFE195 0%, #FF5B5B 100%);
+    width: 465px;
+    height: 465px;
+    border-radius: 70px;
+    padding: 105px;
+    margin-left: 176px;
+}
+
+.description{
+    width:720px;
+}
+
+.list{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    gap:41px;
+}
+
+.listdescription{
+    align-items: center;
+}
+
+.listitem{
+    display: flex;
+    flex-direction: row;
+}
+.listimg{
+    margin-right: 34px;
+    width: 73px;
+    height: 73px;
+}
+
+.footer{
+    background: linear-gradient(102deg, #FFF6DF 17.38%, #FFDFDE 81.25%);
+    border-radius: 60px;
+}
+
+.footercontent{
+    display: flex;
+    flex-direction: row;
+    width: 1110px;
+    padding: 76px 125px 75px 122px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#footer{
+    text-align: left;
+    width:475px;
+}
+
+#footerp{
+    display: block;
+    text-align: left;
+    margin: 0px;
+    width:371px;
+}
+
+.footertext{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width:475px;
+}
+
+#footertext{
+    font-size: 15px;
+}

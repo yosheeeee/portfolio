@@ -1,0 +1,92 @@
+body{
+    background-color: #5ea4a2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    margin: 0;
+}
+.calc{
+    margin:50px auto 0px auto;
+    height: 800px;
+    width: 740px;
+    background: #555658;
+    border-radius: 30px;
+}
+.buttons{
+    background-color: #ffffff;
+    width: 740px;
+    height: 500px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.display{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    width: 740px;
+    height: 300px;
+}
+.disp{
+    display:inline-block;
+    box-sizing: border-box;
+    font-size: 135px;
+    padding-top: 30px;
+    line-height: normal;
+    width: 100%;
+    margin:50px 30px;
+    height: 200px;
+    text-align: right;
+    color: #555658;
+    background-color: #bbd0c1;
+    border-radius: 30px;
+    overflow: auto;
+}
+.btns{
+    box-sizing: border-box;
+    padding:20px 0px 20px 50px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.btnline{
+    display: flex;
+    flex-direction: row;
+    gap:35px;
+}
+.btn{
+    width: 100px;
+    height: 100px;
+    background-color: #555658;
+    color: #ffffff;
+    font-size: 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+}
+.btn>p,.ravno>p{
+    display: inline-block;
+    width: 100%;
+    user-select: none;
+}
+#ravno{
+    background:#f04236;
+}
+.buttons{
+    display:flex;
+    flex-direction: row;
+    gap:35px;
+    margin:0 auto;
+}
+#ravno{
+    margin-top: 20px;
+    width: 100px;
+    height: 460px;
+    background-color: #f93b2b;
+    color: #ffffff;
+    font-size: 80px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+}
