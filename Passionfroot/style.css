@@ -407,3 +407,27 @@ div.ad:last-of-type{
 .third>.flex:last-of-type{
     margin-bottom: 0;
 }
+.green-block{
+    margin:50px auto;
+    width: 1200px;
+    background-color: #66CCA0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 80px 124px 100px 64px;
+}
+.green-block>div:first-child{
+    max-width: 557px;
+    font-family: 'Roboto';
+}
+.green-block>div:first-child>h1{
+    font-size: 40px;
+    line-height: 46px;
+    letter-spacing: 0.6px;
+}
+.green-block>div:first-child>p{
+    font-size: 20px;
+    line-height: 31px;
+    margin-top: 15px;
+}
